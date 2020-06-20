@@ -9,9 +9,9 @@ import { GlobalProvider } from './Context/GlobalState'
 import { CopyRights } from './Components/CopyRights' 
 function App() {
   return (
-    //<div clasName="cont">
-    <div  className="cont">
+    
       <GlobalProvider>
+      <div  className="cont">
       <Header />
       
       <div className="container">
@@ -22,10 +22,9 @@ function App() {
         <CopyRights />
 
       </div>
-      
+      </div>
       </GlobalProvider>
-    </div>
-    //</div>
+   
   );
 }
 
